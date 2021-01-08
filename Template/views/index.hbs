@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    {{!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> --}}
+    <title>Weather App</title>
+        <link rel="stylesheets" href="./css/styles.css">
+        <script src= "src/app.js">  </script>
+</head>
+<body >
+      {{>header}}
+        <form className='form'>
+            
+        <h1>  Registration Form  </h1>
+    <label>Email : </label><input type="email" placeholder="Enter email" name="email"><br><br>
+   <label>Username : </label> <input type="text" placeholder="Enter Username" name="username" > <br><br>
+    <label>Password : </label> <input type="password" placeholder="Enter Password" name="password" ><br><br>
+     <label>MobileNo. : </label> <input type="Number" placeholder="Enter MobileNo." name="mobileNo" ><br><br>
+      <label>ProfilePic: </label> <input type="image"  name="ProfilePic" ><br><br>
+     <button type="submit">Login</button>
+     </form>
+     {{>footer}}
+     
+</body>
+</html>
